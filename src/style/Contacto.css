@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.contacto{
+    position: relative;
+    top: 16vh;
+    margin-left: 22vh;
+    background-color: #fff;
+    width: 44.3%;
+    padding-left: 3vh;
+    padding-top: 25px;
+    margin-top: 20px;
+    font-size:1.5rem;
+}
+
+.contacto input{
+    width: 48vw;
+    height:5vh;
+    font-size:1.3rem;
+}
+
+.contacto textarea{
+    font-size:1.3rem;
+}
+
+.contacto button{
+    width:48.3vw;
+    font-size:1.5rem;
+}
+
+.mapa{
+    position: absolute;
+    top: 60vh;
+    left: 135vh;
+    width: fit-content;
+}
