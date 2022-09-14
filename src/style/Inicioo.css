@@ -46,7 +46,7 @@
     height:11vh;
     display:flex;
     position: relative;
-    top: 68vh;
+    top: 67vh;
     color:red;
 }
 
@@ -54,11 +54,11 @@
 .lenguajes{
     display: flex;
     position: relative;
-    top: 69vh;
+    top: 72vh;
     height: 50vh;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 58vh;
+    margin-bottom: 75vh;
 }
 
 .lenguajes h2{

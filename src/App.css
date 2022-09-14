@@ -114,10 +114,6 @@ h1{
       margin: auto;
       width:60%;
   }
-  .input_suscribete{
-      margin-right: 25px;
-      
-  }
   .input_suscribete input[type=text]{
       width:50%;
   }
@@ -131,6 +127,13 @@ h1{
   nav{
       line-height: 36px;
       padding: 0;
+      font-size: 1.4rem;
+  }
+  .suscribete{
+    flex-direction: column;
+  }
+  button{
+    margin-right: 64px;
   }
 }
 

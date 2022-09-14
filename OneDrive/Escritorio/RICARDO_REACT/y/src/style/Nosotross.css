@@ -176,12 +176,12 @@ margin-left: 28vh;
 
     .texto_suscribete{
         display: flex;
-        line-height: 40px; 
         width: 50%;
         padding-left: 6.4rem;
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin-left: 35px;
     }
 
     .nosotros_derecha{
