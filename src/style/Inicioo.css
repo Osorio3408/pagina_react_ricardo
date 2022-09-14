@@ -109,3 +109,55 @@
 .diseño_grafico img{
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width:960px){
+
+    .inicio{
+        top: -110px;
+    }
+    .texto_inicio{
+        width: 93%;
+        top: 15vh;
+    }
+    .texto_suscribete{
+        width:57%;
+        padding:0;
+    }
+    .input_suscribete{
+        margin-right: 65px;
+    }
+    .input_suscribete input[type=text]{
+        width:60%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .suscribeteinicio{
+        flex-direction: column;
+        height:16vh;
+        line-height: 10vh;
+    }
+    .texto_suscribete{
+        width: 90%;
+    }
+    .input_suscribete{
+        margin-right:0;
+    }
+    .input_suscribete input[type=text]{
+        width:55%;
+    }
+    button{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .suscribeteinicio{
+        line-height: normal;
+    }
+    .texto_suscribete{
+        width: 75%;
+        padding:0px;
+        line-height:50px;
+    }
+}
