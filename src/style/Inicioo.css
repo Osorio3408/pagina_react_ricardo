@@ -46,7 +46,7 @@
     height:11vh;
     display:flex;
     position: relative;
-    top: 67vh;
+    top: 66vh;
     color:red;
 }
 
@@ -112,12 +112,43 @@
 
 @media only screen and (max-width:960px){
 
+    .lenguajes{
+        flex-direction: column;
+        margin-bottom: 165vh;
+        
+    }
+    .html p{
+        padding: 0px;
+        text-align: justify;
+    }
+    .html{
+        margin: auto;
+        width:90%;
+    }
+    .css p{
+        padding: 50px;
+        text-align: justify;
+    }
+    .css{
+        margin: auto;
+        width:90%;
+    }
+    .diseño_grafico p{
+        padding: 50px;
+        text-align: justify;
+    }
+    .diseño_grafico{
+        margin: auto;
+        width:90%;
+
+    }
     .inicio{
         top: -110px;
     }
     .texto_inicio{
         width: 93%;
         top: 15vh;
+
     }
     .texto_suscribete{
         width:57%;
@@ -147,11 +178,42 @@
         width:55%;
     }
     button{
-        margin-right: 0px;
+        margin-right: 60px;
+    }    
+    .lenguajes{
+        margin-bottom: 160vh;
+    }
+    .html p{
+        padding: 0;
+        text-align: justify;
+    }
+    .html{
+        margin: auto;
+        width:90%;
+    }
+    .css p{
+        padding: 0;
+        text-align: justify;
+    }
+    .css{
+        margin: auto;
+        width:90%;
+    }
+    .diseño_grafico p{
+        padding: 0;
+        text-align: justify;
+    }
+    .diseño_grafico{
+        margin: auto;
+        width:90%;
+
     }
 }
 
 @media only screen and (max-width:500px){
+    .lenguajes{
+        margin-bottom: 162vh;
+    }
     .suscribeteinicio{
         line-height: normal;
     }
@@ -159,5 +221,37 @@
         width: 75%;
         padding:0px;
         line-height:50px;
+    }
+    .html p{
+        padding: 0;
+        text-align: justify;
+    }
+    .html{
+        margin: auto;
+        width:90%;
+    }
+    .css p{
+        padding: 0;
+        text-align: justify;
+    }
+    .css{
+        margin: auto;
+        width:90%;
+    }
+    .diseño_grafico p{
+        padding: 0;
+        text-align: justify;
+    }
+    .diseño_grafico{
+        margin: auto;
+        width:90%;
+
+    }
+    button{
+        margin-right: 0px;
+    }
+    .texto_inicio p{
+        text-align: justify;
+        padding: 15px;
     }
 }

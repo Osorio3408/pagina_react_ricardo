@@ -75,7 +75,7 @@ nav a{
   padding-right: 10px;
 }
 
-.diseño_grafico p{
+/* .diseño_grafico p{
   padding-left:50px;
   padding-right:50px;
 }
@@ -88,7 +88,7 @@ nav a{
 .css p{
   padding-left:50px;
   padding-right:50px;
-}
+} */
 }
 
 @media only screen and (max-width: 1150px) {
@@ -97,25 +97,7 @@ h1{
 }
 }
 
-@media only screen and (max-width: 960px){
-  .lenguajes{
-      flex-direction: column;
-      
-  }
-  .html{
-      margin: auto;
-      width:60%;
-  }
-  .css{
-      margin: auto;
-      width:60%;
-  }
-  .diseño_grafico{
-      margin: auto;
-      width:60%;
-  }
 
-}
 
 @media only screen and (max-width: 650px){
 
@@ -130,9 +112,7 @@ h1{
   .suscribete{
     flex-direction: column;
   }
-  button{
-    margin-right: 64px;
-  }
+
 }
 
 @media only screen and (max-width:500px){
