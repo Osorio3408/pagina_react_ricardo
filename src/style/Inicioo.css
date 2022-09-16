@@ -269,7 +269,7 @@
     }
 
     .lenguajes{
-        margin-bottom: 162vh;
+        margin-bottom: 232vh;
     }
     .suscribeteinicio{
         line-height: normal;
@@ -318,9 +318,30 @@
 }
 
 
+@media only screen and (max-width:414px){
+.lenguajes{
+    margin-bottom:175vh
+}
+
+}
+@media only screen and (max-width:380px){
+    .lenguajes{
+        margin-bottom:230vh
+    }
+    
+    }
+
+@media only screen and (max-width:370px){
+    .lenguajes{
+        margin-bottom:210vh
+    }
+    
+    }
+
+
 /* MEDIA QUERY HEIGHT */
 
-@media only screen and (max-height:1500px){
+/* @media only screen and (max-height:1500px){
     .lenguajes{
         margin-bottom: 115vh;
     }
@@ -365,4 +386,4 @@
         margin-bottom: 232vh;
     }
 
-}
+} */
