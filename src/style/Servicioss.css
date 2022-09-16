@@ -98,3 +98,46 @@
         padding-right: 25px;
     }
 
+    @media only screen and (max-width:680px){
+        .quehacemos{
+            width: auto;
+            float:none;
+            right: inherit;
+            top:25vh;
+        }
+        .tituloservicios {
+            display: flex;
+            position: relative;
+            top: 24vh;
+            font-size: 1.4rem;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            left: 0;
+            width: 100%;
+        }
+        .Titulo_servicios{
+            display: flex;
+            position: relative;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            left: 0;
+        }
+        .servicio {
+            position: relative;
+            top: 20vh;
+            margin-left: 0; 
+            background-color: #E6E6E6;
+            width:auto;
+            padding-left: 3vh;
+            padding-top: 25px;
+            margin-top: 20px;
+        }
+    }
+

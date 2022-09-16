@@ -58,7 +58,7 @@
     height: 50vh;
     width: 100%;
     background-color: #fff;
-    margin-bottom: 75vh;
+    margin-bottom: 0vh;
 }
 
 .lenguajes h2{
@@ -109,6 +109,51 @@
 .diseño_grafico img{
     margin-bottom: 20px;
 }
+
+
+
+
+@media only screen and (max-width:1200px){
+    .inicio{
+        top: -65px;
+    }
+    .texto_inicio h1{
+        width:90vw;
+        margin-bottom:5vh;
+    }
+    .texto_inicio p{
+        width:80vw;
+    }
+    .lenguajes{
+        flex-direction: column;
+    }
+    .html{
+        width:auto;
+    }
+    .html p{
+        width:fit-content;
+        padding: 0;
+    }
+    .css{
+        width: auto;
+    }
+    .css p{
+        width:fit-content;
+        padding: 0;
+    }
+    .diseño_grafico{
+        width:auto;
+    }
+    .diseño_grafico p{
+        width:fit-content;
+        padding: 0;
+    }
+}
+
+
+
+
+
 
 @media only screen and (max-width:960px){
 
@@ -211,6 +256,18 @@
 }
 
 @media only screen and (max-width:500px){
+    nav a{
+        font-size:1rem;
+    }
+    nav .titulo{
+        font-size:2.3rem;
+    }
+
+    .suscribeteinicio{
+        top: 61vh;
+        height:23vh;
+    }
+
     .lenguajes{
         margin-bottom: 162vh;
     }
@@ -248,10 +305,64 @@
 
     }
     button{
-        margin-right: 0px;
+        margin-right: 20px;
     }
     .texto_inicio p{
         text-align: justify;
         padding: 15px;
+        font-size:1.3rem;
     }
+    .texto_inicio h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+/* MEDIA QUERY HEIGHT */
+
+@media only screen and (max-height:1500px){
+    .lenguajes{
+        margin-bottom: 115vh;
+    }
+}
+
+@media only screen and (max-height:1200px){
+    .lenguajes{
+        margin-bottom: 130vh;
+    }
+}
+@media only screen and (max-height:1050px){
+    .lenguajes{
+        margin-bottom: 70vh;
+    }
+}
+
+
+@media only screen and (max-height:900px){
+    .lenguajes{
+        margin-bottom: 170vh;
+    }
+
+}
+
+@media only screen and (max-height:855px){
+    .lenguajes{
+        margin-bottom: 180vh;
+    }
+
+}
+
+@media only screen and (max-height:780px){
+    .lenguajes{
+        margin-bottom: 215vh;
+    }
+
+}
+
+
+@media only screen and (max-height:700px){
+    .lenguajes{
+        margin-bottom: 232vh;
+    }
+
 }

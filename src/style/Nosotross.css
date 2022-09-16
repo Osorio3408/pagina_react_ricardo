@@ -222,6 +222,13 @@ margin-left: 28vh;
 
 }
 
+@media only screen and (max-width:680px){
+    .suscribete{
+        height:25vh;
+    }
+}
+
+
 @media only screen and (max-width:500px){
 
     nav label{
@@ -231,7 +238,17 @@ margin-left: 28vh;
     .texto_suscribete h2{
         text-align: center;
     margin-left: 7vw;
+    }
+    .nosotros_derecha{
+        top: 25vh;
+    }
+    .nosotros{
+        top: 24vh;
+    }
 
+    .imagen{
+        top: 8vh;
+        margin-bottom: auto;
     }
 
 }
