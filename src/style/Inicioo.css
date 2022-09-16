@@ -316,8 +316,11 @@
         font-size: 2.5rem;
     }
 }
-
-
+@media only screen and (max-width:498px){
+    .lenguajes{
+        margin-bottom:165vh
+    }
+}
 @media only screen and (max-width:414px){
 .lenguajes{
     margin-bottom:175vh
