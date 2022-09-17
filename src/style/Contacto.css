@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
 
 
-.contacto{
+.contacto {
     position: relative;
     top: 16vh;
     margin-left: 22vh;
@@ -14,25 +14,25 @@
     padding-left: 3vh;
     padding-top: 25px;
     margin-top: 20px;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
-.contacto input{
+.contacto input {
     width: 48vw;
-    height:5vh;
-    font-size:1.3rem;
+    height: 5vh;
+    font-size: 1.3rem;
 }
 
-.contacto textarea{
-    font-size:1.3rem;
+.contacto textarea {
+    font-size: 1.3rem;
 }
 
-.contacto button{
-    width:48.3vw;
-    font-size:1.5rem;
+.contacto button {
+    width: 48.3vw;
+    font-size: 1.5rem;
 }
 
-.mapa{
+.mapa {
     position: absolute;
     top: 68vh;
     left: 134vh;
