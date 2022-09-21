@@ -154,6 +154,31 @@
         width: fit-content;
         padding: 0;
     }
+    .servicio{
+        position: relative;
+        top: 20vh;
+        margin-left: 2vh;
+        background-color: #e6e6e6;
+        width: 44.3%;
+        padding-left: 3vh;
+        padding-top: 25px;
+        margin-top: 20px;
+    }
+    .quehacemos {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        width: 38%;
+        position: relative;
+        right: 50px;
+        background-color: #364050;
+        color: #fff;
+        top: 25vh;
+    }
+    .imagen{
+        top: 8vh;
+        margin-bottom: 2vh;
+    }
 }
 
 
