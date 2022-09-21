@@ -33,8 +33,36 @@
 }
 
 .mapa {
-    position: absolute;
-    top: 68vh;
+    position: relative;
+    bottom: 30vh;
     left: 134vh;
     width: fit-content;
+}
+
+
+@media only screen and (max-width:680px) {
+
+    .contacto{
+        margin: auto;
+        padding: 0;
+        top: 20vh;
+    }
+
+    .mapa{
+        bottom: 0;
+        top: 25vh;
+        left: 0;
+        box-sizing: border-box;
+        margin: auto;
+        margin-bottom: 25vh;
+    }
+
+    .formulario{
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }

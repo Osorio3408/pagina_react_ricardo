@@ -9,7 +9,7 @@
     background-size: cover;
     height: 100vh;
     position: relative;
-    top: -100px;
+    top: -150px;
     width: 100%;
     margin: auto;
     z-index: -99;
@@ -21,8 +21,7 @@
 }
 
 .texto_inicio {
-    font-size: 1.5rem;
-    width: 40%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,12 +31,12 @@
 }
 
 .texto_inicio h1 {
-    font-size: 3rem;
+    font-size: 5.5rem;
     width: max-content;
 }
 
 .texto_inicio p {
-    font-size: 1.6rem;
+    font-size: 2.3rem;
     width: fit-content;
 }
 
@@ -70,10 +69,10 @@
 
 .lenguajes {
     display: grid;
-    gap: 4vw;
+    gap: 7vw;
     grid-auto-flow: dense;
     grid-auto-rows: 28rem;
-    grid-template-columns: repeat(auto-fill, minmax(22rem, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 5fr));
     width: 100%;
     margin: auto;
 }
@@ -89,6 +88,7 @@
 }
 
 .lenguajes p {
+    text-align: justify;
     font-size: 1.3rem;
     color: #000;
 
@@ -96,6 +96,14 @@
 
 .lenguaje img {
     margin-bottom: 20px;
+}
+
+.html{
+    padding-left: 2vw;
+}
+
+.diseño_grafico{
+    padding-right: 2vw;
 }
 
 
@@ -119,6 +127,7 @@
     }
 
     .html {
+        padding: 0;
         width: auto;
     }
 
@@ -137,6 +146,7 @@
     }
 
     .diseño_grafico {
+        padding: 0;
         width: auto;
     }
 
